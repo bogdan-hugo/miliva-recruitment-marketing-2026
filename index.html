@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+  const password = "miliva2024";
+  const entered = sessionStorage.getItem("auth");
+  if (entered !== password) {
+    const input = prompt("Enter password:");
+    if (input !== password) {
+      document.body.innerHTML = "<h2 style='text-align:center;margin-top:40vh'>Access denied</h2>";
+    } else {
+      sessionStorage.setItem("auth", password);
+    }
+  }
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
