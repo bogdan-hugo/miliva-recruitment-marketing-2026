@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Miliva Inc</title>
+  <style>
+    body { background:#1B1B1B; display:flex; align-items:center;
+           justify-content:center; height:100vh; margin:0; }
+    input { padding:12px 20px; font-size:16px; border:2px solid #84E52B;
+            background:#111; color:#fff; outline:none; }
+    button { padding:12px 24px; background:#84E52B; color:#0D0D0D;
+             font-weight:bold; font-size:16px; border:none; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <div>
+    <input type="password" id="pw" placeholder="Enter password">
+    <button onclick="check()">Enter</button>
+  </div>
+  <script>
+    function check() {
+      if (document.getElementById('pw').value === 'miliva2024') {
+        sessionStorage.setItem('auth', 'ok');
+        location.href = 'main.html';
+      } else {
+        alert('Wrong password');
+      }
+    }
+  </script>
+</body>
+</html>
