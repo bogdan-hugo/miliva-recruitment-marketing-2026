@@ -153,6 +153,41 @@
     .tier-header { flex-direction: column; }
     .tier-price-block { text-align: left; }
   }
+  .benchmark-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+  }
+  .benchmark-item {
+    background: rgba(132, 229, 43, 0.08);
+    border: 1px solid rgba(132, 229, 43, 0.2);
+    border-radius: 4px;
+    padding: 20px 22px;
+  }
+  .benchmark-label {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .benchmark-value {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--lime);
+  }
+  .benchmark-source {
+    font-size: 11px;
+    color: var(--muted);
+    opacity: 0.6;
+    margin-top: 6px;
+  }
+  .benchmark-note {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 24px;
+    line-height: 1.7;
+  }
 </style>
 </head>
 <body>
@@ -242,9 +277,9 @@
           <div class="channel-row"><div class="channel-label">TikTok / Reels Boost</div><div class="channel-bar-wrap"><div class="channel-bar" style="width:13%"></div></div><div class="channel-amount">$200</div></div>
         </div>
         <div class="kpi-grid">
-          <div class="kpi-card"><div class="kpi-val">15–25</div><div class="kpi-lbl">leads / month</div></div>
-          <div class="kpi-card"><div class="kpi-val">1–2</div><div class="kpi-lbl">hires / month</div></div>
-          <div class="kpi-card"><div class="kpi-val">$60–100</div><div class="kpi-lbl">cost per lead</div></div>
+          <div class="kpi-card"><div class="kpi-val">35–60</div><div class="kpi-lbl">leads / month</div></div>
+          <div class="kpi-card"><div class="kpi-val">2–4</div><div class="kpi-lbl">hires / month</div></div>
+          <div class="kpi-card"><div class="kpi-val">$25–45</div><div class="kpi-lbl">cost per lead</div></div>
           <div class="kpi-card"><div class="kpi-val">2 cities</div><div class="kpi-lbl">targeted</div></div>
         </div>
         <div class="includes-title">What the Ad Budget Covers</div>
@@ -281,10 +316,10 @@
           <div class="channel-row"><div class="channel-label">TikTok / Reels Boost</div><div class="channel-bar-wrap"><div class="channel-bar" style="width:16%"></div></div><div class="channel-amount">$400</div></div>
         </div>
         <div class="kpi-grid">
-          <div class="kpi-card"><div class="kpi-val">35–55</div><div class="kpi-lbl">leads / month</div></div>
-          <div class="kpi-card"><div class="kpi-val">3–5</div><div class="kpi-lbl">hires / month</div></div>
-          <div class="kpi-card"><div class="kpi-val">$45–70</div><div class="kpi-lbl">cost per lead</div></div>
-          <div class="kpi-card"><div class="kpi-val">4 cities</div><div class="kpi-lbl">targeted</div></div>
+          <div class="kpi-card"><div class="kpi-val">70–130</div><div class="kpi-lbl">leads / month</div></div>
+          <div class="kpi-card"><div class="kpi-val">5–10</div><div class="kpi-lbl">hires / month</div></div>
+          <div class="kpi-card"><div class="kpi-val">$20–35</div><div class="kpi-lbl">cost per lead</div></div>
+          <div class="kpi-card"><div class="kpi-val">3–4 cities</div><div class="kpi-lbl">targeted</div></div>
         </div>
         <div class="includes-title">What the Ad Budget Covers</div>
         <ul class="includes-list">
@@ -294,7 +329,7 @@
           <li>Related costs: retargeting audiences, A/B testing tools</li>
         </ul>
         <div class="note">
-          <strong>Why this package?</strong> At less than $1,200/mo on Facebook, the algorithm never exits the Learning Phase. $2,500 is the minimum threshold for stable optimization and predictable results.
+          <strong>Why this package?</strong> Facebook's algorithm requires ~50 conversion events per week per ad set to exit the Learning Phase. At $2,500, you get enough budget per city ($15+/day) for stable optimization across 3–4 markets simultaneously. This is the sweet spot for predictable results and sustainable lead flow.
         </div>
       </div>
     </div>
@@ -315,7 +350,7 @@
         </div>
       </div>
       <div class="tier-body">
-        <div class="tier-desc">Maximum market coverage for companies actively scaling their fleet. Best suited when the goal is 6+ hires per month or building a large owner-operator network.</div>
+        <div class="tier-desc">Maximum market coverage for companies actively scaling their fleet. With Lookalike audiences and multi-city optimization, this package delivers the lowest cost per hire ($200–$420) and is ideal for 8+ hires per month or building a large owner-operator network.</div>
         <div class="channels-title">Ad Budget Breakdown</div>
         <div class="channel-bars">
           <div class="channel-row"><div class="channel-label">Facebook/Meta Ads</div><div class="channel-bar-wrap"><div class="channel-bar" style="width:57%"></div></div><div class="channel-amount">$2,000</div></div>
@@ -323,10 +358,10 @@
           <div class="channel-row"><div class="channel-label">TikTok / Reels Boost</div><div class="channel-bar-wrap"><div class="channel-bar" style="width:14.5%"></div></div><div class="channel-amount">$500</div></div>
         </div>
         <div class="kpi-grid">
-          <div class="kpi-card"><div class="kpi-val">60–90</div><div class="kpi-lbl">leads / month</div></div>
-          <div class="kpi-card"><div class="kpi-val">6–10</div><div class="kpi-lbl">hires / month</div></div>
-          <div class="kpi-card"><div class="kpi-val">$38–58</div><div class="kpi-lbl">cost per lead</div></div>
-          <div class="kpi-card"><div class="kpi-val">6 cities</div><div class="kpi-lbl">targeted</div></div>
+          <div class="kpi-card"><div class="kpi-val">120–230</div><div class="kpi-lbl">leads / month</div></div>
+          <div class="kpi-card"><div class="kpi-val">8–17</div><div class="kpi-lbl">hires / month</div></div>
+          <div class="kpi-card"><div class="kpi-val">$15–30</div><div class="kpi-lbl">cost per lead</div></div>
+          <div class="kpi-card"><div class="kpi-val">4–6 cities</div><div class="kpi-lbl">targeted</div></div>
         </div>
         <div class="includes-title">What the Ad Budget Covers</div>
         <ul class="includes-list">
@@ -339,6 +374,40 @@
     </div>
 
   </div>
+</div>
+
+<!-- INDUSTRY BENCHMARKS -->
+<div class="section">
+  <div class="section-tag">Industry Benchmarks</div>
+  <div class="section-title">How These Numbers Compare to the Market</div>
+  <div class="benchmark-grid">
+    <div class="benchmark-item">
+      <div class="benchmark-label">Facebook Lead Ads CPL (CDL recruitment, USA)</div>
+      <div class="benchmark-value">$5 – $30</div>
+      <div class="benchmark-source">Leadgamp, TruckersFlow, WordStream 2025</div>
+    </div>
+    <div class="benchmark-item">
+      <div class="benchmark-label">CTR for Lead Ads (trucking)</div>
+      <div class="benchmark-value">2.5% – 4.0%</div>
+      <div class="benchmark-source">WordStream, Zeely 2025–2026</div>
+    </div>
+    <div class="benchmark-item">
+      <div class="benchmark-label">Lead-to-Hire conversion (with speed-to-lead &lt;5 min)</div>
+      <div class="benchmark-value">8% – 12%</div>
+      <div class="benchmark-source">Tenstreet, Conversion Interactive Agency 2025</div>
+    </div>
+    <div class="benchmark-item">
+      <div class="benchmark-label">Cost per Hire (CDL drivers, Facebook)</div>
+      <div class="benchmark-value">$200 – $750</div>
+      <div class="benchmark-source">Leadgamp, TruckersFlow case studies</div>
+    </div>
+  </div>
+  <p class="benchmark-note">
+    * Projections assume: Facebook Lead Ads with Instant Forms, 30–60 mile radius targeting,
+    speed-to-lead under 5 minutes via automated SMS + recruiter call,
+    and ongoing A/B creative testing. First-month results may be 30–40% below projections
+    while the algorithm exits the Learning Phase.
+  </p>
 </div>
 
 <!-- TIMELINE -->
